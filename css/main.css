@@ -1,0 +1,320 @@
+    * {
+        font-family: "Poppins", sans-serif;;
+    }
+    :root {
+        --main-color: #20C997;
+    }
+    /* start nav section */
+   
+    nav .navbar-toggler:focus
+    {
+        box-shadow:none;
+        border: none;
+    }
+    .navbar-light .navbar-toggler
+    {
+        border: none;
+    }
+    .navbar-light .navbar-nav .nav-link
+    {
+        color: #fff ;
+    }
+
+    .navbar-light .navbar-nav .nav-link.active {
+        color: var(--main-color);
+    }
+
+    .navbar-light .navbar-nav .nav-link
+    {
+        transition: all 0.5s;
+    }
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: var(--main-color);
+    }
+    /* End nav section */
+
+     /* start home section */
+    #home {
+        background-image: url(../imgs/intro-bg.jpg);
+        background-size: cover;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: right center;
+        background-repeat: no-repeat;
+    }
+
+    .back-img {
+        background-color: #111418;
+        opacity: 0.8;
+    }
+
+    .home-cap {
+        color: #fff;
+    }
+
+    #home h2 {
+        font-size: 4rem;
+    }
+
+    #home button {
+        color: var(--main-color) ;
+        border-color: var(--main-color);
+        transition: all 0.5s;
+    }
+
+    #home button:hover {
+        background-color: var(--main-color);
+        color: #fff;
+    }
+
+    .icon {
+        position: fixed;
+        top: 27rem;
+        right: 0;
+        font-size: 1rem;
+    }
+    .icon i
+    {
+        transition: all 0.5s;
+    }
+    .icon i:hover
+    {
+        color: var(--main-color);
+    }
+    /* End home section */
+
+    /* Start about section */
+
+    .about-text p {
+        font-size: 3vw;
+        position: absolute;
+        top:3vw;
+        left: 0;
+        user-select: none;
+    }
+
+    .about-text p::after
+    {
+        content: "";
+        background-color: var(--main-color);
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom:-2px;
+        width: 5vw;
+        height: 3px;
+    }
+    .about-text h2 {
+        /* font-size: 8.25rem; */
+        font-size: 8vw;
+        opacity: 0.1;
+        user-select: none;
+    }
+
+    .color-simon {
+        color:var(--main-color);
+    }
+
+    
+
+    #about .caption p,#about h4 span ,#about .calc h2 {
+        color: #777777;
+    }
+
+    #about .info button {
+        background-color: #20c997;
+    }
+
+   
+
+    #about .calc .brd {
+        border-right: 1px dotted #6C757D;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 20rem;
+        opacity: 0.3;
+    }
+    /* End about section */
+
+    /* start service section */
+    #service {
+        background-color: #F8F9FA;
+    }
+
+    #service .serv-info i {
+        transform: translate(0px, 3px);
+        background-color: #fff;
+        color: var(--main-color);
+    }
+
+    .service .serv-info h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: 500;
+        color: #252b33;
+    }
+
+    #service .serv-info p {
+        color: #6C757D;
+        line-height: 1.8;
+    }
+    /* End service section */
+
+    /* start resume section */
+    #resume .res-info h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    #resume .text-resume {
+        border: 1px solid #dee2e6;
+        border-radius: 2px;
+    }
+
+    
+
+    #resume .text-resume .p1 {
+        background-color: var(--main-color);
+        color: #fff;
+        width: 6rem;
+        border-radius: 3px;
+        font-size: 14px;
+    }
+
+    #resume .text-resume .p2 {
+        color: #dc3545;
+    }
+
+    #resume .text-resume .p3 {
+        color: #6C757D;
+    }
+
+    .bac-prog {
+        background-color:var(--main-color);
+    }
+    #resume button {
+        color: var(--main-color);
+    }
+
+    #resume button:hover {
+        color: #fff;
+        transition: all 1s;
+    }
+    /* End resume section */
+
+    /* start protfolio section */
+
+    #protfolio .prot-img .hove {
+        background-color: rgba(0, 0, 0, 0.7);
+        opacity: 0;
+        transition: all 1s;
+    }
+    
+    #protfolio .prot-img .hove:hover {
+        opacity: 1;
+
+    }
+
+    /* End protfolio section */
+
+
+    /* start TESTIMONIAL section */
+    #TESTIMONIAL .carousel-indicators [data-bs-target]
+    {
+        background-color:var(--main-color);
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+    }
+    
+    #TESTIMONIAL .col-md-6 > div
+    {
+        background-color: #F8F9FA;
+    }
+
+    /* End TESTIMONIAL section */
+
+    /* start footer section */
+    #contact .backgroun-contact {
+        background-color: #F8F9FA;
+    }
+
+    #contact i {
+        color: var(--main-color);
+    }
+
+    #contact button {
+        background-color: #20c997;
+        color: #fff;
+    }
+    
+
+    
+    
+
+    #contact .simon {
+        color: var(--main-color);
+    }
+
+    #contact a {
+        text-decoration: none;
+        color: #000;
+        transition: all 0.5s;
+    }
+
+    #contact a:hover {
+        color: #20c997;
+    }
+    /* end footer section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* @media screen and (max-width: 600px) 
+    {
+        html,body
+        {
+            font-size: 12px;
+        }
+        .about-text p {
+            font-size: 30px;
+            top: 15px;
+        }
+        .about-text h2 {
+            font-size: 50px;
+        }
+      
+    }
+
+
+    @media (min-width: 601px) and (max-width: 768px) 
+    {
+        html,body
+        {
+            font-size: 12px;
+        }
+        .about-text p {
+            font-size: 25px;
+            top: 15px;
+        }
+        .about-text h2 {
+            font-size: 50px;
+        }
+    } */
